@@ -7,7 +7,7 @@
 * max([-1, 0]);   // 0
 */
 const max = arr => {
-  /* your logic here...*/
+  if(Array.isArray(arr)) return Math.max(...arr);
+  console.log('Not an array');
 };
-
 export default max;

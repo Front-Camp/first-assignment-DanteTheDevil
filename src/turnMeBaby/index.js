@@ -8,7 +8,6 @@
  * turnMeBaby('Some text'); // 'txet emoS'
  */
 const turnMeBaby = str => {
-  /* your logic here...*/
+  return [...str].reverse().join('');
 };
-
 export default turnMeBaby;

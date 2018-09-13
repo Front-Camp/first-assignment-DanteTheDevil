@@ -8,7 +8,7 @@
  * isObject(null); // false
  */
 const isObject = data => {
-  /* your logic here...*/
+  let a = {}.toString.call(data).slice(8,-1);
+  return a.includes('Object') ? true : false;
 };
-
 export default isObject;
